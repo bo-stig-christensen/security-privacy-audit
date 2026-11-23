@@ -1,0 +1,31 @@
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local work, confidential reports and downloads
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+*.tgz
+*.tar.gz
+reports/
+audit-results/
+audit-output/
+private/
+_private/
+.tmp/
+tmp/
+dist/
+
+# Operating systems/editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
